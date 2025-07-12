@@ -18,10 +18,6 @@
   <li>The keylogger starts running when the script is executed.</li>
 </ul>
 
-<blockquote>
-⚠️ <strong>Note:</strong> This code is for educational purposes only. Unauthorized use of keyloggers is illegal and unethical.
-</blockquote>
-
 <hr/>
 
 <h2>📧 Keylogger v2: Email-Based</h2>
@@ -61,5 +57,5 @@
 </ol>
 
 <blockquote>
-⚠️ <strong>Disclaimer:</strong> This tool is intended strictly for educational and ethical testing purposes. Unauthorized use of keyloggers is illegal and unethical. Use responsibly.
+⚠️ <strong>Disclaimer:</strong> This code is intended strictly for educational and ethical testing purposes. Unauthorized use of keyloggers is illegal and unethical. Use responsibly.
 </blockquote>
