@@ -34,31 +34,29 @@
 <ol>
   <li>
       <strong>Setup:</strong> Set up an email to receive the keystroke data and another email to send the data.<br/>
-    <img src="screenshots/step1.png" alt="Step 1 screenshot" width="600"/>
   </li>
   <li>
     Generated an <strong>app password</strong> through a Google account to allow secure SMTP access.<br/>
-    <img src="screenshots/step2.png" alt="Step 2 screenshot" width="600"/>
+    <img src="Screenshots/AppPass.png" width="500"/>
   </li>
   <li>
     Compiled the script using <strong>PyInstaller</strong> into an executable and disguised it with a <strong>gear icon</strong>, mimicking a legitimate system service or application.<br/>
-    <img src="screenshots/step3.png" alt="Step 3 screenshot" width="600"/>
+    <img src="Screenshots/Exe-Command.png" width="600"/>    <img src="Screenshots/Keylogger-Icon.png" width="600"/>
   </li>
   <li>
     Tested functionality by typing in Notepad and verified that it logged and emailed after every 300 characters. The email arrives with the subject line: <em>"Victim's Keystrokes"</em>.<br/>
-    <img src="screenshots/step4.png" alt="Step 4 screenshot" width="600"/>
+    <img src="Screenshots/Test-note.png" width="500"/>     <img src="Screenshots/Send-Email-Result.png" width="1000"/>     <img src="Screenshots/Recieve-Email-Result.png" width="1000"/>
   </li>
   <li>
     <strong>Persistence Options:</strong> An attacker could add the executable to <strong>system startup</strong>. The victim would be unaware, as the process appears like a normal system service in Task Manager. Additionally, it can be deployed via a <strong>USB stick</strong> by tampering with <strong>AutoPlay settings</strong> or using an <code>autorun.inf</code> file to launch it automatically when plugged in. <em>(Note: This functionality is not yet implemented in the current version.)</em><br/>
-    <img src="screenshots/step5.png" alt="Step 5 screenshot" width="600"/>
+    <img src="Screenshots/Renamed-Task.png"width="600"/>
   </li>
   <li>
     It is <strong>fast and efficient</strong>, missing only 2 characters during testing — likely while sending an email. This can be improved by increasing the character limit (from 300) before each send cycle.<br/>
-    <img src="screenshots/step6.png" alt="Step 6 screenshot" width="600"/>
   </li>
   <li>
     <strong>Update:</strong> A <strong>Windows message pop-up</strong> was added to falsely notify the victim of what the program is doing, discouraging them from ending the process in Task Manager.<br/>
-    <img src="screenshots/step7.png" alt="Step 7 screenshot" width="600"/>
+    <img src="Screenshots/Popup-Message.png" width="600"/>
   </li>
 </ol>
 
