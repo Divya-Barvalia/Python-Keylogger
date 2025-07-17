@@ -20,7 +20,7 @@
 
 <hr/>
 
-<h2>📧 Keylogger v2: Email-Based</h2>
+<h2>📧 Keylogger v2.0: Email-Based</h2>
 
 <ul>
   <li><strong>Keylogger v2 (Logged keystrokes sent via Email)</strong></li>
