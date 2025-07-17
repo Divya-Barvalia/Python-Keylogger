@@ -23,7 +23,7 @@
 <h2>📧 Keylogger v2.0: Email-Based</h2>
 
 <ul>
-  <li><strong>Keylogger v2 (Logged keystrokes sent via Email)</strong></li>
+  <li><strong>Python keylogger v2.0 (Logged keystrokes sent via Email)</strong></li>
   <li>Built with <strong>Python 3.11.2</strong></li>
 </ul>
 
