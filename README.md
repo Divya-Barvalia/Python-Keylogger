@@ -48,10 +48,10 @@
     <img src="Screenshots/Renamed-Task.png"width="600"/>
   </li>
   <li>
-    It is <strong>fast and efficient</strong>, missing only 2 characters during testing — likely while sending an email. This can be improved by increasing the character limit (from 300) before each send cycle.<br/>
+    It is <strong>fast and efficient</strong>, missing only 2 characters between emails during testing — likely while the previous email was sending. This can be improved by increasing the character limit (from 300) before each send cycle.<br/>
   </li>
   <li>
-    <strong>Update:</strong> A <strong>Windows message pop-up</strong> was added to falsely notify the victim of what the program is doing, discouraging them from ending the process in Task Manager.<br/>
+    <strong>Update:</strong> A <strong>Windows message pop-up</strong> was added to falsely notify of what the program is doing, discouraging them from ending the process in Task Manager. Also, if this program is put on a system or renamed to something like <code>Windows-Malware-Remover</code> when someone opens it up they will have no idea what just happened, and think it was truly for cleaning their system due to the misleading Windows pop-up message. In reality it will be logging every clicked key on the machine.<br/>
     <img src="Screenshots/Popup-Message.png" width="600"/>
   </li>
 </ol>
