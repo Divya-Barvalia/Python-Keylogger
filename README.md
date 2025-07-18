@@ -44,7 +44,7 @@
     <img src="Screenshots/Test-note.png" width="500"/>     <img src="Screenshots/Send-Email-Result.png" width="1000"/>     <img src="Screenshots/Recieve-Email-Result.png" width="1000"/>
   </li>
   <li>
-    <strong>Persistence Options:</strong> An attacker could add the executable to <strong>system startup</strong>. The victim would be unaware, as the process appears like a normal system service in Task Manager. Additionally, it can be deployed via a <strong>USB stick</strong> by tampering with <strong>AutoPlay settings</strong> or using an <code>autorun.inf</code> file to launch it automatically when plugged in. <em>(Note: This functionality is not yet implemented in the current version.)</em><br/>
+    <strong>Persistence Options:</strong> An attacker could create a scheduled task using <code>Windows Task Scheduler</code> and add the executable to <strong>system startup</strong>. The victim would be unaware, as the process appears like a normal system service in Task Manager. Additionally, it can be deployed via a <strong>USB stick</strong> by tampering with <strong>AutoPlay settings</strong> or using an <code>autorun.inf</code> file to launch it automatically when plugged in. <em>(Note: This functionality is not yet implemented in the current version.)</em><br/>
     <img src="Screenshots/Renamed-Task.png"width="600"/>
   </li>
   <li>
